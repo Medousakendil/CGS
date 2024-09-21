@@ -1,0 +1,53 @@
+/* Style for profile picture */
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Styling for Name */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling for personal information */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Styling for description */
+p.description {
+    font-size: 1.2rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+
+/* Styling for social media buttons */
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Background color for header and footer */
+header {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+}
